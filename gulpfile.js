@@ -13,7 +13,7 @@ const sourcemaps = require('gulp-sourcemaps');
  **/
 gulp.task('copyfonts', function() {
   gulp.src('./node_modules/ionicons/dist/fonts/*.{eot,svg,ttf,woff,woff2}')
-    .pipe(gulp.dest('./public/fonts/ionicons'));
+    .pipe(gulp.dest('./public/my-projects/deft-clone/fonts/ionicons'));
 });
 
 /**
@@ -28,7 +28,7 @@ gulp.task("js", function() {
         __dirname + "/node_modules/animsition/dist/js"
       ]
     })).on('error', console.log)
-    .pipe(gulp.dest("./public/js"));
+    .pipe(gulp.dest("./public/my-projects/deft-clone/js"));
 });
 
 /** 
@@ -42,7 +42,7 @@ gulp.task('sass', function() {
       includePaths: ['node_modules']
     }).on('error', sass.logError))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./public/css'));
+    .pipe(gulp.dest('./public/my-projects/deft-clone/css'));
 });
 
 gulp.task('watch', function() {

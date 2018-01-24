@@ -1,6 +1,6 @@
 const sections = {
   header: {
-    image: 'images/logo.png',
+    image: '/my-projects/deft-clone/images/logo.png',
     title: 'Hello Guys!',
     subheader: 'Deft is Coming Soon...',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet.',
@@ -33,7 +33,7 @@ const sections = {
   gallery: {
     projects: [
       {
-        image: 'images/pexels-photo-14075.jpeg',
+        image: '/my-projects/deft-clone/images/pexels-photo-14075.jpeg',
         heading: 'Music Player',
         author: 'Code Rare',
         detail: [
@@ -42,7 +42,7 @@ const sections = {
         ],
       },
       {
-        image: 'images/shells-massage-therapy-sand.jpg',
+        image: '/my-projects/deft-clone/images/shells-massage-therapy-sand.jpg',
         heading: 'Sea Shells',
         author: 'Code Rare',
         detail: [
@@ -51,7 +51,7 @@ const sections = {
         ],
       },
       {
-        image: 'images/typing-vintage-technology-keyboard.jpg',
+        image: '/my-projects/deft-clone/images/typing-vintage-technology-keyboard.jpg',
         heading: 'Typing',
         author: 'Code Rare',
         detail: [
@@ -60,7 +60,7 @@ const sections = {
         ],
       },
       {
-        image: 'images/hand-taking-photo-photography-vintage.jpg',
+        image: '/my-projects/deft-clone/images/hand-taking-photo-photography-vintage.jpg',
         heading: 'Camera',
         author: 'Code Rare',
         detail: [
@@ -69,7 +69,7 @@ const sections = {
         ],
       },
       {
-        image: 'images/guitar.jpg',
+        image: '/my-projects/deft-clone/images/guitar.jpg',
         heading: 'Guitar',
         author: 'Code Rare',
         detail: [
@@ -78,7 +78,7 @@ const sections = {
         ],
       },
       {
-        image: 'images/food-plate-yellow-white.jpg',
+        image: '/my-projects/deft-clone/images/food-plate-yellow-white.jpg',
         heading: 'Food',
         author: 'Code Rare',
         detail: [
